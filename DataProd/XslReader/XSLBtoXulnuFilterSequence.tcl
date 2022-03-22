@@ -1,0 +1,20 @@
+#
+# Sequence for the B->Xulnu BetaMiniApp
+# 
+#
+
+sequence create XSLBtoXulnuFilterSequence
+
+sequence append XSLBtoXulnuFilterSequence LoadEventInfoSequence
+sequence append XSLBtoXulnuFilterSequence SmpCompositionSequence
+sequence append XSLBtoXulnuFilterSequence PidMicroSequence
+sequence append XSLBtoXulnuFilterSequence CompTrackRefineSequence
+
+sequence append XSLBtoXulnuFilterSequence CompCharmlessProdSequence
+sequence append XSLBtoXulnuFilterSequence CompPsiInitSequence
+
+#sequence append XSLBtoXulnuFilterSequence XSLBtoXulnuFilterMini
+sequence append XSLBtoXulnuFilterSequence XSLReader
+
+
+

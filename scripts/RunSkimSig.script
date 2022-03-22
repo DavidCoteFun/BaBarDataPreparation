@@ -1,0 +1,35 @@
+echo Skim Signal Collections
+echo
+setenv AnalyzePilnu flase
+setenv AnalyzePi0lnu false
+setenv AnalyzeEtalnu false
+setenv AnalyzeEtaplnu false
+setenv AnalyzeRho0lnu false
+setenv AnalyzeRhoClnu false
+setenv AnalyzeOmegalnu false
+setenv AnalyzeGammalnu false
+echo
+echo
+echo
+setenv AnalyzeEtaplnu true
+setenv NbSkimEvt 25000
+setenv prefix etaplnu-flatq2-1430a-
+echo
+setenv suffix 001
+setenv SkimCollFile ~cote/a_conserver/flatq2-etap.tcl
+bsub -q long -o /nfs/farm/babar/AWG38/cote/SkimmedCollections/$prefix$suffix.out ../bin/Linux24RH72_i386_gcc2953/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+echo
+echo
+setenv AnalyzeEtaplnu false
+setenv AnalyzeRhoClnu true
+setenv NbSkimEvt 20000
+setenv prefix rhoClnu-flatq2-1430a-
+echo
+setenv suffix 001
+setenv SkimCollFile ~cote/a_conserver/flatq2-rhoClnu.tcl
+bsub -q long -o /nfs/farm/babar/AWG38/cote/SkimmedCollections/$prefix$suffix.out ../bin/Linux24RH72_i386_gcc2953/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+echo
+echo voila! 
+echo
+

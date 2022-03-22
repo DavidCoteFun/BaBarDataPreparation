@@ -1,0 +1,57 @@
+echo Skim Generics BBbar
+echo
+setenv AnalyzePilnu true
+setenv AnalyzePi0lnu true
+setenv AnalyzeEtalnu true
+setenv AnalyzeEtaplnu true
+setenv AnalyzeRho0lnu true
+setenv AnalyzeRhoClnu true
+setenv AnalyzeOmegalnu true
+setenv AnalyzeGammalnu true
+echo
+unsetenv SkimCollFile
+unsetenv SkimColl
+echo
+setenv OuputDirSkim /nfs/farm/babar/AWG38/cote/SkimmedCollections
+echo
+setenv NbSkimEvt 37000
+echo
+echo
+setenv prefix genB0B0bar-AllModes-1431c-
+setenv SkimCollFile ~cote/COLLECTIONS/14MCKan/1431aGenB0B0bar.tcl
+echo
+setenv startSkip 0
+setenv endSkip 0
+setenv suffix 0-37k
+bsub -q xlong -o $OuputDirSkim/$prefix$suffix.out ../bin/Linux24RH72_i386_gcc2953/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+echo
+setenv startSkip 1
+setenv endSkip 37000
+setenv suffix 37-74k
+bsub -q xlong -o $OuputDirSkim/$prefix$suffix.out ../bin/Linux24RH72_i386_gcc2953/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+echo 
+echo
+echo
+setenv prefix genBBch-AllModes-1431c-
+setenv SkimCollFile ~cote/COLLECTIONS/14MCKan/1431aGenBBch.tcl
+echo
+setenv startSkip 0
+setenv endSkip 0
+setenv suffix 0-37k
+bsub -q xlong -o $OuputDirSkim/$prefix$suffix.out ../bin/Linux24RH72_i386_gcc2953/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+echo
+setenv startSkip 1
+setenv endSkip 37000
+setenv suffix 37-74k
+bsub -q xlong -o $OuputDirSkim/$prefix$suffix.out ../bin/Linux24RH72_i386_gcc2953/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+echo
+setenv startSkip 1
+setenv endSkip 74000
+setenv suffix 74-111k
+bsub -q xlong -o $OuputDirSkim/$prefix$suffix.out ../bin/Linux24RH72_i386_gcc2953/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+echo 
+echo 
+echo
+echo voila! 
+echo
+

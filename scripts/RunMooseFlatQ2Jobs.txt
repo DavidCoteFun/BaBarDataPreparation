@@ -1,0 +1,126 @@
+
+setenv myRUNNUM 784600
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784600
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784600.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784601
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784601
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784601.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784602
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784602
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784602.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784603
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784603
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784603.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784604
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784604
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784604.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784605
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784605
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784605.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784606
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784606
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784606.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784607
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784607
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784607.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784608
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784608
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784608.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784609
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784609
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784609.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784610
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784610
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784610.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784611
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784611
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784611.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784612
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784612
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784612.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784613
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784613
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784613.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784614
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784614
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784614.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784615
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784615
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784615.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784616
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784616
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784616.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784617
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784617
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784617.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784618
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784618
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784618.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784619
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784619
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784619.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784620
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784620
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784620.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784621
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784621
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784621.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784622
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784622
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784622.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784623
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784623
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784623.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784624
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784624
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784624.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784625
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784625
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784625.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784626
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784626
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784626.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784627
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784627
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784627.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784628
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784628
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784628.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+setenv myRUNNUM 784629
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784629
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-flatq2-784629.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-flatq2.tcl
+
+
+
+echo voila!
+
+

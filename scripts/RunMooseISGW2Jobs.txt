@@ -1,0 +1,126 @@
+
+setenv myRUNNUM 784630
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784630
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784630.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784631
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784631
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784631.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784632
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784632
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784632.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784633
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784633
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784633.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784634
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784634
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784634.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784635
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784635
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784635.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784636
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784636
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784636.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784637
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784637
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784637.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784638
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784638
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784638.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784639
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784639
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784639.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784640
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784640
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784640.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784641
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784641
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784641.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784642
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784642
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784642.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784643
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784643
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784643.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784644
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784644
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784644.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784645
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784645
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784645.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784646
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784646
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784646.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784647
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784647
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784647.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784648
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784648
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784648.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784649
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784649
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784649.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784650
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784650
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784650.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784651
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784651
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784651.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784652
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784652
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784652.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784653
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784653
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784653.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784654
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784654
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784654.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784655
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784655
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784655.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784656
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784656
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784656.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784657
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784657
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784657.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784658
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784658
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784658.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+setenv myRUNNUM 784659
+setenv myMooseOutColl /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784659
+bsub -q xlong -o /nfs/farm/babar/AWG19/Xulnu/XSLMooseCollections/pilnu-ISGW2-784659.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/MooseApp ../Moose/pilnu-ISGW2.tcl
+
+
+
+echo voila!
+
+

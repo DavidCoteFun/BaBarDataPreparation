@@ -1,0 +1,46 @@
+$Id: History,v 1.6 2004/11/28 02:07:43 cote Exp $
+
+Tag V00-03-00
+=============
+11-27-04 D. Cote
+        Implemented the B->D*lnu form factor reweighting functionalities in 
+        in XSL classes inheriting from the XSLEvtFFWeight interface.
+        Simplified the XSLKin code to now fit on single (and still simple)
+        concrete class. Removed all the non-XSL code, which is now useles 
+        and/or is a duplication of code in the DStarLNuFFAnal package. 
+        Following these actions, the package is now free of dependencies to:
+        override LINK_PDT                  += XslFFReweighting
+        override LINK_ROOT                 += XslFFReweighting
+        override LINK_difAlgebra           += XslFFReweighting
+	which will help for its design goal to be usable outside the BaBar
+        Framework.
+
+Tag V00-02-00
+=============
+10-08-04 M. Kelsey
+	Restored CLtoRoot.hh and EcsKinVars to break unnecessary dependence
+	upon EcsAnalysis code, and to support use of package by Jim Libby
+	and others.
+
+Numerous files updated, removed, and renamed by David Cote-Ahern.
+
+Tag V00-01-00
+=============
+10-4-04 M. Kelsey
+	Migrate to Release 15.7.1.  Code should be merged with David
+	Cote-Ahern's updates, which he is pulling out of ISLUser.  Moved
+	EcsKinVars out to EcsAnalysis.
+
+3-8-04  A. Weinstein
+	Committed first complete, compiling, functioning version
+	of this package.  Contains classes DStarLNuPDF and DStarLNuMoments,
+	which are adapted and improved versions of Art Snyders
+	implementation from DStarLNuFFAnal, along with versions of
+	the needed supporting classes.  Was done to eliminate dependence
+	on DStarLNuFFAnal, which has spiderwebbed dependencies on
+	a number of other packages.  The only other package that 
+	this package requires is the latest tag of difAlgebra.
+
+5-10-04 A. Weinstein
+	Moved EcsKinVars into this package.  Induces slight dependence
+        on EcsUser, but makes available to other users.

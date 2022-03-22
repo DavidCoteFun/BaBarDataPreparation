@@ -1,0 +1,226 @@
+echo skimming pilnu signal...
+
+unsetenv SkimColl
+setenv prefix 1611iAllModes
+
+setenv suffix -1
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -2
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -3
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -4
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -5
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -6
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -7
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -8
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -9
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -10
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -11
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -12
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -13
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -14
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -15
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -16
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -17
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -18
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -19
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -20
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -21
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -22
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -23
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -24
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -25
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -26
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -27
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -28
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -29
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -30
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -31
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -32
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -33
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -34
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -35
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -36
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -37
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -38
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -39
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -40
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -41
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -42
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -43
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -44
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -45
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -46
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -47
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -48
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -49
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -50
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -51
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -52
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -53
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -54
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+setenv suffix -55
+setenv SkimCollFile ../Collections/SP-4764$suffix.tcl
+bsub -q kanga -o ../logFiles/$prefix$suffix.out ../bin/Linux24SL3_i386_gcc323/SkimMiniApp ../SkimMini/XSLSkimSetupMC.tcl
+
+echo voila

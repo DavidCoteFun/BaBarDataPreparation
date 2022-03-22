@@ -1,0 +1,64 @@
+#
+# Sequence for the XSLBtoXulnuFilter skim reader
+# 
+#
+
+#BtaGoodTrackSequence sourceFoundFiled by BetaMiniUser/btaMini.tcl
+#However we just need GTVL within this sequence...
+sequence disable BtaGoodTrackSequence
+
+sourceFoundFile SimpleComposition/SmpCompositionSequence.tcl
+sourceFoundFile PidTools/PidSequence.tcl
+
+sourceFoundFile CompositionSequences/CompTrackRefineSequence.tcl
+module enable GoodTracksVisibleESelection
+module enable GoodPhotonsVisibleESelection
+
+sourceFoundFile CompositionSequences/CompGammaConvSequence.tcl
+
+sourceFoundFile VertexingTools/VtxProdCreateSequence.tcl
+
+
+sequence create XSLReaderSequence
+
+sequence append XSLReaderSequence GoodTrackVeryLooseSelection
+sequence append XSLReaderSequence GoodTrackLooseSelection
+sequence append XSLReaderSequence PidLoadAlgorithm
+
+sequence append XSLReaderSequence TightMuonMicroSelection
+sequence append XSLReaderSequence VeryTightMuonMicroSelection
+sequence append XSLReaderSequence PidMuonMicroNNSelectorSequence
+
+sequence append XSLReaderSequence VeryLooseElectronMicroSelection
+sequence append XSLReaderSequence LooseElectronMicroSelection
+sequence append XSLReaderSequence TightElectronMicroSelection
+sequence append XSLReaderSequence VeryTightElectronMicroSelection
+sequence append XSLReaderSequence PidLHElectronSelector
+
+#sequence append XSLReaderSequence VeryLooseLHKaonMicroSelection
+sequence append XSLReaderSequence LooseLHKaonMicroSelection
+sequence append XSLReaderSequence TightLHKaonMicroSelection
+sequence append XSLReaderSequence VeryTightLHKaonMicroSelection
+
+sequence append XSLReaderSequence LooseLHPionMicroSelection
+sequence append XSLReaderSequence TightLHPionMicroSelection
+sequence append XSLReaderSequence VeryTightLHPionMicroSelection
+
+#sequence append XSLReaderSequence VeryLooseLHProtonSelection
+sequence append XSLReaderSequence LooseLHProtonSelection
+sequence append XSLReaderSequence TightLHProtonSelection
+sequence append XSLReaderSequence VeryTightLHProtonSelection
+
+sequence append XSLReaderSequence GoodTracksVisibleESelection
+sequence append XSLReaderSequence GoodPhotonsVisibleESelection
+
+sequence append XSLReaderSequence CompGammaConvSequence
+sequence append XSLReaderSequence VtxProdCreateSequence
+
+sequence append XSLReaderSequence XSLReader
+
+
+
+
+
+

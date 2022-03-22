@@ -1,0 +1,34 @@
+echo Skim Data Run2
+echo
+setenv AnalyzePilnu true
+setenv AnalyzePi0lnu true
+setenv AnalyzeEtalnu true
+setenv AnalyzeEtaplnu true
+setenv AnalyzeRho0lnu true
+setenv AnalyzeRhoClnu true
+setenv AnalyzeOmegalnu true
+setenv AnalyzeGammalnu true
+echo
+setenv NbSkimEvt 50000
+setenv prefix DataRun2-AllModes-1430a-
+echo
+setenv suffix 1
+setenv SkimCollFile ~cote/14.3.1d-test/workdir/AllEventsRun2-1.tcl
+bsub -q long -o /nfs/farm/babar/AWG38/cote/SkimmedCollections/$prefix$suffix.out ../bin/Linux24RH72_i386_gcc2953/SkimMiniApp ../SkimMini/XSLSkimSetupData.tcl
+setenv suffix 2
+setenv SkimCollFile ~cote/14.3.1d-test/workdir/AllEventsRun2-2.tcl
+bsub -q long -o /nfs/farm/babar/AWG38/cote/SkimmedCollections/$prefix$suffix.out ../bin/Linux24RH72_i386_gcc2953/SkimMiniApp ../SkimMini/XSLSkimSetupData.tcl
+setenv suffix 3
+setenv SkimCollFile ~cote/14.3.1d-test/workdir/AllEventsRun2-3.tcl
+bsub -q long -o /nfs/farm/babar/AWG38/cote/SkimmedCollections/$prefix$suffix.out ../bin/Linux24RH72_i386_gcc2953/SkimMiniApp ../SkimMini/XSLSkimSetupData.tcl
+setenv suffix 4
+setenv SkimCollFile ~cote/14.3.1d-test/workdir/AllEventsRun2-4.tcl
+bsub -q long -o /nfs/farm/babar/AWG38/cote/SkimmedCollections/$prefix$suffix.out ../bin/Linux24RH72_i386_gcc2953/SkimMiniApp ../SkimMini/XSLSkimSetupData.tcl
+setenv suffix 5
+setenv SkimCollFile ~cote/14.3.1d-test/workdir/AllEventsRun2-5.tcl
+bsub -q long -o /nfs/farm/babar/AWG38/cote/SkimmedCollections/$prefix$suffix.out ../bin/Linux24RH72_i386_gcc2953/SkimMiniApp ../SkimMini/XSLSkimSetupData.tcl
+
+echo
+echo voila! 
+echo
+

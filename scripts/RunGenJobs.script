@@ -1,0 +1,107 @@
+echo
+echo welcome!
+echo
+setenv NbGenEvt 50000
+echo $NbGenEvt events
+echo
+echo pilnu mode - no photos
+setenv myModeString pilnu
+setenv myModeInt 1
+echo
+echo ISGW2 
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B0B0bar_pilnu-ISGW2-noPhotos.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG19/Xulnu/pilnu-ISGW2-noPhotos-50k.hbook"
+bsub -q long -o /nfs/farm/babar/AWG19/Xulnu/pilnu-ISGW2-noPhotos-50k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo
+echo FLATQ2 
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B0B0bar_X-pilnu_flatq2-noPhotos.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG19/Xulnu/pilnu-flatq2-noPhotos-50k.hbook"
+bsub -q long -o /nfs/farm/babar/AWG19/Xulnu/pilnu-flatq2-noPhotos-50k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo
+echo PHSP 
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B0B0bar_X-pilnu_phsp-NoPhotos.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG19/Xulnu/pilnu-PHSP-noPhotos-50k.hbook"
+bsub -q long -o /nfs/farm/babar/AWG19/Xulnu/pilnu-PHSP-noPhotos-50k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo
+echo
+echo  
+echo pi0lnu mode - no photos
+setenv myModeString pi0lnu
+setenv myModeInt 2
+echo  
+echo FLATQ2
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B+B-_pi0lnu_FLATQ2-NoPhotos.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG19/Xulnu/pi0lnu-flatq2-noPhotos-50k.hbook"
+bsub -q long -o /nfs/farm/babar/AWG19/Xulnu/pi0lnu-flatq2-noPhotos-50k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo  
+echo ISGW2
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B+B-_pi0lnu_ISGW2-NoPhotos.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG19/Xulnu/pi0lnu-ISGW2-noPhotos-50k.hbook"
+bsub -q long -o /nfs/farm/babar/AWG19/Xulnu/pi0lnu-ISGW2-noPhotos-50k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo
+echo
+echo  
+echo etalnu mode - no photos
+setenv myModeString etalnu
+setenv myModeInt 3
+echo  
+echo FLATQ2
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B+B-_etalnu_FLATQ2-NoPhotos.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG19/Xulnu/etalnu-flatq2-noPhotos-50k.hbook"
+bsub -q long -o /nfs/farm/babar/AWG19/Xulnu/etalnu-flatq2-noPhotos-50k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo    
+echo ISGW2
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B+B-_etalnu_ISGW2-NoPhotos.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG19/Xulnu/etalnu-ISGW2-noPhotos-50k.hbook"
+bsub -q long -o /nfs/farm/babar/AWG19/Xulnu/etalnu-ISGW2-noPhotos-50k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo  
+echo 
+echo
+echo rhoClnu mode - no photos
+setenv myModeString rhoClnu
+setenv myModeInt 4
+echo
+echo ISGW2 
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B0B0bar_rhoClnu_ISGW2-NoPhotos.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG19/Xulnu/rhoClnu-ISGW2-noPhotos-50k.hbook"
+bsub -q long -o /nfs/farm/babar/AWG19/Xulnu/rhoClnu-ISGW2-noPhotos-50k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo
+echo FLATQ2 
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B0B0bar_rhoClnu_flatq2-NoPhotos.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG19/Xulnu/rhoClnu-flatq2-noPhotos-50k.hbook"
+bsub -q long -o /nfs/farm/babar/AWG19/Xulnu/rhoClnu-flatq2-noPhotos-50k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo
+echo PHSP 
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B0B0bar_rhoClnu_phsp-NoPhotos.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG19/Xulnu/rhoClnu-PHSP-noPhotos-50k.hbook"
+bsub -q long -o /nfs/farm/babar/AWG19/Xulnu/rhoClnu-PHSP-noPhotos-50k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo 
+echo 
+echo 
+echo  
+echo omegalnu mode - no photos
+setenv myModeString omegalnu
+setenv myModeInt 6
+echo  
+echo FLATQ2
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B+B-_omegalnu_FLATQ2-noPhotos.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG19/Xulnu/omegalnu-flatq2-noPhotos-50k.hbook"
+bsub -q long -o /nfs/farm/babar/AWG19/Xulnu/omegalnu-flatq2-noPhotos-50k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo  
+echo  
+echo ISGW2
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B+B-_omegalnu_ISGW2-noPhotos.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG19/Xulnu/omegalnu-ISGW2-noPhotos-50k.hbook"
+bsub -q long -o /nfs/farm/babar/AWG19/Xulnu/omegalnu-ISGW2-noPhotos-50k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo  
+echo voila!
+echo
+
+
+

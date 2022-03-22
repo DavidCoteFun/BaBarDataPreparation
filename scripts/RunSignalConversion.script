@@ -1,0 +1,56 @@
+echo Signal Conversion to CM2
+setenv OutputDir /nfs/farm/babar/AWG38/cote/ConvertedCollections
+echo
+echo pilnu 2002
+echo
+setenv InputDir ~cote/COLLECTIONS/SP5/B0_pilnu
+setenv InputFile pi2002-1.tcl
+setenv ConversionInputFile $InputDir/$InputFile
+setenv ConvertionOutput $OutputDir/$InputFile
+bsub -q xlong -o $ConvertionOutput.out ../bin/Linux24RH72_i386_gcc2953/KanFrameApp ../KanUtils/XSLconvert.tcl
+echo
+echo pi0lnu 2002
+echo
+setenv InputDir ~cote/COLLECTIONS/SP5/B_pi0lnu
+setenv InputFile pi02002-1.tcl
+setenv ConversionInputFile $InputDir/$InputFile
+setenv ConvertionOutput $OutputDir/$InputFile
+bsub -q xlong -o $ConvertionOutput.out ../bin/Linux24RH72_i386_gcc2953/KanFrameApp ../KanUtils/XSLconvert.tcl
+echo
+echo etalnu 2001
+echo
+setenv InputDir ~cote/COLLECTIONS/SP5/B_etalnu
+setenv InputFile eta2001-1.tcl
+setenv ConversionInputFile $InputDir/$InputFile
+setenv ConvertionOutput $OutputDir/$InputFile
+bsub -q xlong -o $ConvertionOutput.out ../bin/Linux24RH72_i386_gcc2953/KanFrameApp ../KanUtils/XSLconvert.tcl
+echo
+echo rhoClnu 2002
+echo
+setenv InputDir ~cote/COLLECTIONS/SP5/B0_rholnu
+setenv InputFile rho2002-1.tcl
+setenv ConversionInputFile $InputDir/$InputFile
+setenv ConvertionOutput $OutputDir/$InputFile
+bsub -q xlong -o $ConvertionOutput.out ../bin/Linux24RH72_i386_gcc2953/KanFrameApp ../KanUtils/XSLconvert.tcl
+echo
+echo rho0lnu 2002
+echo
+setenv InputDir ~cote/COLLECTIONS/SP5/B_rho0lnu
+setenv InputFile rho02002-1.tcl
+setenv ConversionInputFile $InputDir/$InputFile
+setenv ConvertionOutput $OutputDir/$InputFile
+bsub -q xlong -o $ConvertionOutput.out ../bin/Linux24RH72_i386_gcc2953/KanFrameApp ../KanUtils/XSLconvert.tcl
+echo
+echo pilnu 2002
+echo
+setenv InputDir ~cote/COLLECTIONS/SP5/B_omegalnu
+setenv InputFile ome2002-1.tcl
+setenv ConversionInputFile $InputDir/$InputFile
+setenv ConvertionOutput $OutputDir/$InputFile
+bsub -q xlong -o $ConvertionOutput.out ../bin/Linux24RH72_i386_gcc2953/KanFrameApp ../KanUtils/XSLconvert.tcl
+echo
+echo enwoueye stie!
+echo
+
+
+

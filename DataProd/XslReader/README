@@ -1,0 +1,4 @@
+XSLReader is a package containing the code to make the complex ntuples of 
+the exclusive B->Xulnu analysis using the "loose neutrino reconstruction" 
+technique. The code reads the output of the XSLBtoXulnuFilter skim, 
+particularly its composite BtaCandidates and UsrData, to make the ntuples.

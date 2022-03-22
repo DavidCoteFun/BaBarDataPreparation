@@ -1,0 +1,171 @@
+echo
+echo welcome!
+echo
+setenv NbGenEvt 1000000
+echo $NbGenEvt events
+echo
+echo pilnu mode 
+setenv myModeString pilnu
+setenv myModeInt 1
+echo
+echo ISGW2 
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/Gen1430/ProdDecayFiles/B0B0bar_pilnu.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/pilnu-ISGW2-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/pilnu-ISGW2-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo
+echo FLATQ2 
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/Gen1430/ProdDecayFiles/B0B0bar_pilnu_FLATQ2.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/pilnu-flatq2-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/pilnu-flatq2-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo
+echo NO PHOTOS
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B0B0bar_pilnu-ISGW2-noPhotos.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/pilnu-ISGW2-noPhotos-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/pilnu-ISGW2-noPhotos-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo
+echo FLATQ2
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B0B0bar_X-pilnu_flatq2-noPhotos.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/pilnu-flatq2-noPhotos-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/pilnu-flatq2-noPhotos-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo
+echo  
+echo pi0lnu mode 
+setenv myModeString pi0lnu
+setenv myModeInt 2
+echo  
+echo FLATQ2
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/Gen1430/ProdDecayFiles/B+B-_pi0lnu_FLATQ2.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/pi0lnu-flatq2-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/pi0lnu-flatq2-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo  
+echo ISGW2
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/Gen1430/ProdDecayFiles/B+B-_pilnu.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/pi0lnu-ISGW2-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/pi0lnu-ISGW2-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo
+echo
+echo  
+echo etalnu mode 
+setenv myModeString etalnu
+setenv myModeInt 3
+echo  
+echo FLATQ2
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/Gen1430/ProdDecayFiles/B+B-_etalnu_FLATQ2.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/etalnu-flatq2-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/etalnu-flatq2-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo    
+echo ISGW2
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B+B-_etalnu_ISGW2.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/etalnu-ISGW2-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/etalnu-ISGW2-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo
+echo PHSP 
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B+B-_etalnu_phsp.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/etalnu-PHSP-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/etalnu-PHSP-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo
+echo
+echo  
+echo etaplnu mode 
+setenv myModeString etaplnu
+setenv myModeInt 4
+echo  
+echo FLATQ2
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/Gen1430/ProdDecayFiles/B+B-_etaplnu_FLATQ2.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/etaplnu-flatq2-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/etaplnu-flatq2-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo    
+echo ISGW2
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B+B-_etaplnu_ISGW2.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/etaplnu-ISGW2-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/etaplnu-ISGW2-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo  
+echo 
+echo
+echo rhoClnu mode 
+setenv myModeString rhoClnu
+setenv myModeInt 5
+echo
+echo ISGW2 
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/Gen1430/ProdDecayFiles/B0B0bar_rholnu.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/rhoClnu-ISGW2-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/rhoClnu-ISGW2-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo 
+echo FLATQ2 
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/Gen1430/ProdDecayFiles/B0B0bar_rhoClnu_FLATQ2.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/rhoClnu-flatq2-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/rhoClnu-flatq2-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo
+echo PHSP 
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/Gen1430/ProdDecayFiles/B0B0bar_rholnu_phsp.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/rhoClnu-PHSP-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/rhoClnu-PHSP-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo 
+echo 
+echo  
+echo 
+echo
+echo rho0lnu mode
+setenv myModeString rho0lnu
+setenv myModeInt 6
+echo
+echo ISGW2 
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/Gen1430/ProdDecayFiles/B+B-_rholnu.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/rho0lnu-ISGW2-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/rho0lnu-ISGW2-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo 
+echo FLATQ2 
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/Gen1430/ProdDecayFiles/B+B-_rho0lnu_FLATQ2.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/rho0lnu-flatq2-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/rho0lnu-flatq2-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo
+echo 
+echo  
+echo omegalnu mode 
+setenv myModeString omegalnu
+setenv myModeInt 7
+echo  
+echo FLATQ2
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/Gen1430/ProdDecayFiles/B+B-_omegalnu_FLATQ2.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/omegalnu-flatq2-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/omegalnu-flatq2-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo  
+echo  
+echo ISGW2
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/Gen1430/ProdDecayFiles/B+B-_omegalnu.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/omegalnu-ISGW2-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/omegalnu-ISGW2-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo  
+echo
+echo NO PHOTOS
+echo
+echo FLATQ2
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B+B-_omegalnu_FLATQ2-noPhotos.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/omegalnu-flatq2-noPhotos-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/omegalnu-flatq2-noPhotos-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo  
+echo ISGW2
+echo
+setenv myUDECAY "/afs/slac.stanford.edu/u/br/cote/a_conserver/DecFiles/B+B-_omegalnu_ISGW2-noPhotos.dec"
+setenv myHbookFile "/nfs/farm/babar/AWG38/cote/FFReweightValidation/omegalnu-ISGW2-noPhotos-1000k.hbook"
+bsub -q xlong -o /nfs/farm/babar/AWG38/cote/FFReweightValidation/omegalnu-ISGW2-noPhotos-1000k.out ../bin/Linux24RH72_i386_gcc2953/GeneratorsQAApp ../GeneratorsQA/XSLGenAnalysis.tcl
+echo voila!
+echo
+echo voila!
+echo
+
+
+
+
+
+

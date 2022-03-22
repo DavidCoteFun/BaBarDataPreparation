@@ -1,0 +1,63 @@
+echo
+echo signal etaplnu flatq2
+setenv BetaModeInt 4
+setenv BetaModeString etaplnu
+setenv Patch MC
+setenv lookMC true
+unsetenv BetaColl
+setenv BetaCollFile etaplnu-flatq2-18fev2004
+setenv RootFile /nfs/farm/babar/AWG38/cote/ntuples/$BetaCollFile.root
+bsub -q long -o /nfs/farm/babar/AWG38/cote/ntuples/$BetaCollFile.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/BetaMiniApp ../BetaMiniUser/runReader.tcl
+
+echo
+echo signal rhoClnu flatq2
+setenv BetaModeInt 5
+setenv BetaModeString rhoClnu
+setenv Patch MC
+setenv lookMC true
+unsetenv BetaColl
+setenv BetaCollFile rhoClnu-flatq2-18fev2004
+setenv RootFile /nfs/farm/babar/AWG38/cote/ntuples/$BetaCollFile.root
+bsub -q long -o /nfs/farm/babar/AWG38/cote/ntuples/$BetaCollFile.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/BetaMiniApp ../BetaMiniUser/runReader.tcl
+
+echo
+echo genBB
+setenv BetaModeInt 0
+setenv BetaModeString genBB
+setenv Patch MC
+setenv lookMC true
+unsetenv BetaColl
+echo
+setenv BetaCollFile genBB-18fev2004-1272
+setenv RootFile /nfs/farm/babar/AWG38/cote/ntuples/$BetaCollFile.root
+bsub -q long -o /nfs/farm/babar/AWG38/cote/ntuples/$BetaCollFile.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/BetaMiniApp ../BetaMiniUser/runReader.tcl
+echo
+setenv BetaCollFile genBB-18fev2004-1581
+setenv RootFile /nfs/farm/babar/AWG38/cote/ntuples/$BetaCollFile.root
+bsub -q long -o /nfs/farm/babar/AWG38/cote/ntuples/$BetaCollFile.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/BetaMiniApp ../BetaMiniUser/runReader.tcl
+echo
+setenv BetaCollFile genBB-18fev2004-1582
+setenv RootFile /nfs/farm/babar/AWG38/cote/ntuples/$BetaCollFile.root
+bsub -q long -o /nfs/farm/babar/AWG38/cote/ntuples/$BetaCollFile.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/BetaMiniApp ../BetaMiniUser/runReader.tcl
+echo
+setenv BetaCollFile genBB-18fev2004-1583
+setenv RootFile /nfs/farm/babar/AWG38/cote/ntuples/$BetaCollFile.root
+bsub -q long -o /nfs/farm/babar/AWG38/cote/ntuples/$BetaCollFile.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/BetaMiniApp ../BetaMiniUser/runReader.tcl
+echo
+setenv BetaCollFile genBB-18fev2004-1596
+setenv RootFile /nfs/farm/babar/AWG38/cote/ntuples/$BetaCollFile.root
+bsub -q long -o /nfs/farm/babar/AWG38/cote/ntuples/$BetaCollFile.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/BetaMiniApp ../BetaMiniUser/runReader.tcl
+
+echo
+echo Run2
+setenv Patch Run2
+setenv BetaModeInt 0
+setenv BetaModeString none
+setenv lookMC false
+unsetenv BetaColl
+setenv BetaCollFile Data-Run2-18fev2004
+setenv RootFile /nfs/farm/babar/AWG38/cote/ntuples/$BetaCollFile.root
+bsub -q long -o /nfs/farm/babar/AWG38/cote/ntuples/$BetaCollFile.out ../bin/Linux24RH72_i386_gcc2953-noOptimize-Debug/BetaMiniApp ../BetaMiniUser/runReader.tcl
+echo
+echo voila!
+echo
