@@ -4,3 +4,4 @@ Big data "pipeline" developed during my Ph.D. to process low-level data from the
 
 The final analysis step is done with siebling package `HistoMaker`.
 
+`DataProd/XslFFReweighting` was also used for "Reweighting of the form factors in exclusive B->Xlnu decays, D. Côté et al., Eur. Phys. J. C38 (2004)
